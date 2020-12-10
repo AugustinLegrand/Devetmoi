@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__logo {
+    width: 100%;
+}
+
+.header__nav {
+    margin-top: 15px;
+    display: flex;
+}
+
+.header__nav a {
+    display: flex;
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-bottom: 5px solid gray;
+}
+
+.header__nav a:hover, .header__nav a:focus {
+    color: rgb(100, 100, 200);
+    border-color: rgb(100, 100, 200);
+}
